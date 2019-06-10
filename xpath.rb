@@ -7,6 +7,7 @@ class Xpath < Formula
   sha256 'ebea0cf6b6ae16f8d9d0ca913139c4e9c044b4089019b5227b18b8d646678024'
 
   def install
+    system "tar xf libxml-xpath-perl_#{version}_all.deb"
     system "tar xf data.tar.gz"
     system "mkdir #{bin}"
     system "cp usr/bin/xpath #{bin}"
