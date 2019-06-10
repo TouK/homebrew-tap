@@ -3,9 +3,8 @@ tap
 
 Homebrew tap for formulas created by Concept Not Found
 
-Add this tap: `brew tap concept-not-found/tap`
+Add this tap: `brew tap TouK/tap`
 
 Available formulas:
- * `brew install screenarrangement`
  * `brew install xpath`
 

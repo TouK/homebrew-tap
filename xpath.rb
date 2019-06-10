@@ -1,10 +1,10 @@
 require 'formula'
 
 class Xpath < Formula
-  homepage 'http://packages.debian.org/squeeze/libxml-xpath-perl'
-  url 'http://mirrors.us.kernel.org/ubuntu//pool/universe/libx/libxml-xpath-perl/libxml-xpath-perl_1.13-7_all.deb'
-  version '1.13-7'
-  sha1 '5d70f8054a7596727d05918b01b3617effe47937'
+  homepage 'https://packages.ubuntu.com/bionic/libxml-xpath-perl'
+  url 'http://mirrors.kernel.org/ubuntu/pool/universe/libx/libxml-xpath-perl/libxml-xpath-perl_1.42-1_all.deb'
+  version '1.42-1'
+  sha256 'ebea0cf6b6ae16f8d9d0ca913139c4e9c044b4089019b5227b18b8d646678024'
 
   def install
     system "tar xf data.tar.gz"
