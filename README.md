@@ -1,7 +1,7 @@
 tap
 ===
 
-Homebrew tap for formulas created by Concept Not Found
+Homebrew tap for formulas used by TouK
 
 Add this tap: `brew tap TouK/tap`
 
