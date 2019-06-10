@@ -8,7 +8,7 @@ class Xpath < Formula
 
   def install
     system "tar xf libxml-xpath-perl_#{version}_all.deb"
-    system "tar xf data.tar.gz"
+    system "tar xf data.tar.xz"
     system "mkdir #{bin}"
     system "cp usr/bin/xpath #{bin}"
     system "mkdir -p #{man1}"
